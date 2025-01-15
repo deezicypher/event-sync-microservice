@@ -7,7 +7,7 @@ const CreatePost = () => {
   const onSubmit = async (event:React.FormEvent<HTMLFormElement>):Promise<void> => {
     event.preventDefault();
 
-    await axios.post("http://posts.com/posts", {
+    await axios.post("http://posts.com/posts/create", {
       title,
     });
 
