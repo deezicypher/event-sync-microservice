@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
 import Comments from "./Comments";
-import CreateComment from "./createcomment";
+import CreateComment from "./createComment";
 
 interface Post {
     id: string;
