@@ -1,0 +1,7 @@
+node_modules
+pnpm*
+Dockerfile
+.dockerignore
+.gitignore
+README.md
+build
