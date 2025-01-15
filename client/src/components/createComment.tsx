@@ -17,11 +17,12 @@ const CreateComment = ({ postId }:{postId:string}) => {
     <div>
       <form onSubmit={onSubmit}>
         <div className="mt-5 flex gap-3">
-          <label className="text-sm">New Comment</label>
+          
           <input
             value={content}
+            placeholder="Comment"
             onChange={(e) => setContent(e.target.value)}
-            className="border border-black rounded-md"
+            className="border  rounded-2xl p-4 outline-none bg-slate-100"
           />
         </div>
         <button className="border bg-orange-300 px-2 py-1 mt-3 rounded-md">Submit</button>

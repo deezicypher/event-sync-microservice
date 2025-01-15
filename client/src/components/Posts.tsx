@@ -38,7 +38,7 @@ const Posts = () => {
     return (
       <div
         className="flex rounded-md border-2 shadow-md"
-        style={{ width: "30%", marginBottom: "20px" }}
+        
         key={post.id}
       >
         <div className="p-4">
@@ -53,7 +53,7 @@ const Posts = () => {
   });
 
   return (
-    <div className="flex sm:flex-row  flex-wrap gap-5">
+    <div className="flex sm:flex-row flex-col  flex-wrap gap-5">
       {renderedPosts}
     </div>
   );

@@ -15,17 +15,18 @@ const CreatePost = () => {
   };
 
   return (
-    <div>
-      <form onSubmit={onSubmit}>
-        <div className="mt-5 flex gap-3">
-          <label className="text-base">Title</label>
+    <div >
+      <form onSubmit={onSubmit} className="flex flex-col  p-4 ">
+        <div className="mt-5 flex gap-3 ">
+          
           <input
             value={title}
+            placeholder="Title"
             onChange={(e) => setTitle(e.target.value)}
-            className="border border-black rounded-md "
+            className="border  rounded-2xl p-4 outline-none bg-slate-100 sm:w-[600px] w-screen h-[80px]"
           />
         </div>
-        <button className="border bg-green-300 px-2 py-1 mt-3 rounded-md">Submit</button>
+        <button className="border bg-green-400  py-1 px-4 mt-3 rounded-xl">Submit</button>
       </form>
     </div>
   );

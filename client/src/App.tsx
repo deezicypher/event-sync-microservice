@@ -6,14 +6,16 @@ function App() {
 
 
   return (
-    <div className="flex flex-col p-10">
-<h1 className="font-bold text-slate-600 mt-5 text-3xl">My Blog</h1>
-<div className="flex flex-col mt-10">
-<h1>Make a  Post</h1>
+    <div className="flex flex-col p-4">
+<h1 className="font-bold text-slate-600 mt-5 text-xl">My Blog</h1>
+<div className="flex flex-col mt-20 sm:mt-60 items-center justify-center ">
+<h1 className="sm:text-3xl text-slate-700 text-2xl font-normal">Make a  Post</h1>
       <CreatePost />
-      <hr className="text-slate-800 mt-10" />
-      <h1 className="text-2xl py-4">Posts</h1>
+      <hr className="text-slate-900 sm:mt-10 sm:w-60" />
+      <div className="">
+      <h1 className="text-2xl sm:text-3xl text-slate-700  py-4">Posts</h1>
       <Posts />
+      </div>
 </div>
     </div>
   )
