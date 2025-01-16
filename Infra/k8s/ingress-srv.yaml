@@ -26,14 +26,13 @@ spec:
             pathType: ImplementationSpecific
             backend:
               service:
-                name: comment-srv
+                name: comments-srv
                 port:
                   number: 4001
-          - path: /posts/?(.*)
+          - path: /?(.*)
             pathType: ImplementationSpecific
             backend:
               service:
                 name: client-srv
                 port:
                   number: 3000
-
