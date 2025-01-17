@@ -9,7 +9,7 @@ function App() {
     <div className="flex flex-col p-4">
 <h1 className="font-bold text-slate-600 mt-5 text-xl">My Blog</h1>
 <div className="flex flex-col mt-20 sm:mt-60 items-center justify-center ">
-<h1 className="sm:text-3xl text-slate-700 text-2xl font-normal">Make a  Post</h1>
+<h1 className="sm:text-3xl text-slate-700 text-2xl font-normal">Write Something!</h1>
       <CreatePost />
       <hr className="text-slate-900 sm:mt-10 sm:w-60" />
       <div className="">
